@@ -67,7 +67,7 @@ Plug 'djoshea/vim-autoread'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'mhinz/vim-startify'
 Plug 'mhinz/vim-signify'
-" Plug 'matze/vim-move'
+Plug 'matze/vim-move'
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
@@ -92,9 +92,9 @@ endfunction
 "--------------------------------------------------------
 " YouCompleteMe
 " let g:ycm_path_to_python_interpreter="/usr/bin/python"
-" let g:ycm_key_list_select_completion=['<c-n>']
+let g:ycm_key_list_select_completion=['<c-n>']
 let g:ycm_key_list_select_completion = ['<Down>']
-" let g:ycm_key_list_previous_completion=['<c-p>']
+let g:ycm_key_list_previous_completion=['<c-p>']
 let g:ycm_key_list_previous_completion = ['<Up>']
 " let g:ycm_use_ultisnips_completer = 1 "提示UltiSnips
 let g:ycm_collect_identifiers_from_comments_and_strings = 1   "注释和字符串中的文字也会被收入补全
@@ -102,7 +102,6 @@ let g:ycm_collect_identifiers_from_tags_files = 1 " 开启 YCM 基于标签引�
 let g:ycm_seed_identifiers_with_syntax=1 " 开启语法关键字补全
 let g:ycm_key_list_stop_completion = ['<CR>'] " 回车作为选中
 let g:ycm_autoclose_preview_window_after_completion=1
-" let g:ycm_min_num_of_chars_for_completion=2 " 从第2个键入字符就开始罗列匹配项
 " let g:ycm_register_as_syntastic_checker = 0
 " let g:ycm_goto_buffer_command = 'horizontal-split' " 跳转到定义处, 分屏打开
 " let g:ycm_register_as_syntastic_checker = 0
