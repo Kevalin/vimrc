@@ -285,3 +285,6 @@ nnoremap <leader>w :w<cr>
 " let g:javascript_plugin_jsdoc = 1
 " let g:javascript_plugin_flow = 1
 "--------------------------------------------------------
+let g:move_key_modifier = 'C'
+"--------------------------------------------------------
+
